@@ -1,3 +1,18 @@
+header {
+    background-color: grey;
+    border-style: solid;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+header > * {
+    padding: 8px;
+}
+
+#biography {
+    background-color: grey;
+}
+
 #img-div {
     display: flex;
     flex-direction: column;
