@@ -11,6 +11,8 @@
 body {
     background-color: #424C55;
     color: #D1CCDC;
+    padding: 0px;
+    margin: 0px;
 }
 
 p {
@@ -30,8 +32,25 @@ h2 {
     font-style: italic;
 }
 
+footer {
+    background-color: #3D2C2E;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    border-top: solid;
+    border-color: #F5EDF0;
+}
+
+footer > p {
+    font-size: 14px;
+}
+
 .vertical-text-align {
     text-align: center;
+}
+
+.align-left {
+    text-align: left;
 }
 
 .container {
