@@ -1,7 +1,23 @@
+/**
+* Colors
+*
+* #D1CCDC
+* #424C55
+* #F5EDF0
+* #886F68
+* #3D2C2E
+*/
+
+body {
+    background-color: #424C55;
+    color: #D1CCDC;
+}
+
+p {
+    font-size: 24px;
+}
+
 header {
-    background-color: grey;
-    border-style: solid;
-    border-radius: 2px;
     margin: 5px;
 }
 
@@ -9,8 +25,25 @@ header > * {
     padding: 8px;
 }
 
-#biography {
-    background-color: grey;
+h2 {
+    font-size: 26px;
+    font-style: italic;
+}
+
+.vertical-text-align {
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-md-8 {
+    width: 66.6666667%;
 }
 
 #img-div {
@@ -25,4 +58,12 @@ header > * {
     max-width: 642px;
     height: auto;
     margin: auto;
+}
+
+#jp-descriptors {
+    font-size: 42px;
+}
+
+#title {
+    font-size: 64px;
 }
