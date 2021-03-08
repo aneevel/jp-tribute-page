@@ -54,15 +54,30 @@ footer > p {
 }
 
 .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
     margin-top: 50px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.col-md-8 {
-    width: 66.6666667%;
+.double-row {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.row {
+    grid-row: 1;
+}
+
+.full-width {
+    grid-column: span 12;
+}
+
+.three-wide {
+    grid-column: span 4;
 }
 
 #img-div {
