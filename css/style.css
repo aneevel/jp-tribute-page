@@ -63,6 +63,16 @@ footer > p {
     margin-left: auto;
 }
 
+.big-deal {
+    font-size: larger;
+    font-style: italic;
+}
+
+.album-cover {
+    width: 100px;
+    height: 100px;
+}
+
 footer.container {
     display: block;
 }
